@@ -7,7 +7,7 @@
   <artifactId>hiber7-pro</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>hibernate</name>
+  <name>hiber7-pro</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -25,10 +25,11 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
     <dependency>
       <groupId>org.hibernate.orm</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>6.6.0.Final</version>
+      <version>6.6.13.Final</version>
     </dependency>
 
     <dependency>
